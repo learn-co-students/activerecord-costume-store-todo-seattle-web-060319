@@ -6,6 +6,9 @@ require 'active_record'
 require 'yaml/store'
 require 'ostruct'
 require 'date'
+require_relative '../app/models/costume_store'
+require_relative '../app/models/costume'
+require_relative '../app/models/haunted_house'
 
 DBNAME = "halloween"
 
