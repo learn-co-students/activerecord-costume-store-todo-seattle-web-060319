@@ -3,6 +3,9 @@ require "bundler/setup"
 require "sinatra/activerecord"
 require 'ostruct'
 require 'date'
+require_relative '../app/models/costume_store'
+require_relative '../app/models/costume'
+require_relative '../app/models/haunted_house'
 
 Bundler.require
 
